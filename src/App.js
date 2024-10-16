@@ -8,7 +8,7 @@ function App() {
       </header>
       
       <div className="App-paragraph">
-        <p>faiz stinks</p>
+        <p>faiz stinks b a d </p>
       </div>
     </div>
   );
