@@ -1,6 +1,7 @@
 import './App.css';
 
-function App() {
+const App = () => {
+//function App() {
   return (
     <div className="App">
 		<header className="App-header">
