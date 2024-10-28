@@ -1,16 +1,20 @@
+body {
+  background-color: #f400fc;
+
+}
+
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: white;
   min-height: 8vh; /* Reduced from 100vh to 80vh */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(16px + 2vmin);
-  color: blue;
+  color: rgb(253, 253, 253);
   padding: 0;
   margin: 0;
 }
@@ -24,12 +28,13 @@
 .App-tinyparagraph {
   font-size: 10px;
   color: black;
-  position: absolute;
-  bottom: 10px; /* Position 100px above the bottom of the screen */
-  text-align: center;
+  position: fixed; /* Fixed position relative to the viewport */
+  bottom: 10px; /* 100px above the bottom */
   left: 50%;
   transform: translateX(-50%);
+  text-align: center;
 }
+
 
 .checkbox-container {
   position: relative;
@@ -50,8 +55,5 @@
 
 .result {
   margin-top: 10px;
-  position: absolute;
   text-align: center;
-  z-index: -1;
-
 }
