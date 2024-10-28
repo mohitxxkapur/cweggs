@@ -46,7 +46,7 @@ body {
 }
 
 .checkbox-container input[type="checkbox"] {
-  margin-right: 10px;
+  margin-right: 1px;
 }
 
 .checkbox-container span {
@@ -55,5 +55,9 @@ body {
 
 .result {
   margin-top: 10px;
+  position: absolute;
   text-align: center;
+  z-index: -1; /* Ensure it is behind other elements */
 }
+
+
